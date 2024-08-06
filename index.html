@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <style>
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #007bff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-right: 10px; /* Add space between buttons */
+            /* Optional: Add other styles for the buttons */
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    
+        .button {
+            text-align: center; /* Center the buttons horizontally */
+        }
+    
+        .portfolio {
+            min-height: 100vh;
+            padding: 50px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Center align the content horizontally */
+        }
+    
+        .portfolio-content {
+            display: flex;
+            flex-direction: column;
+            gap: 15px; /* Reduce space between project boxes */
+            max-width: 900px; /* Set a maximum width for the portfolio content */
+            width: 100%;
+        }
+    
+        .project {
+            margin-bottom: 15px; /* Reduce bottom margin of project boxes */
+            padding: 20px;
+            border: 1px solid #514e4e;
+            border-radius: 8px;
+            background-color: #1c1a1a;
+            max-width: 1000px; /* Set a maximum width for the project boxes */
+            width: 100%; /* Make the project boxes responsive */
+            margin-left: auto; /* Center the project boxes horizontally */
+            margin-right: auto; /* Center the project boxes horizontally */
+        }
+    
+        .main-text h2 {
+            color: rgb(40, 124, 213); /* Changes the color of the h2 heading to blue */
+        }
+    
+        .project h3 {
+            color: rgb(83, 83, 137); /* Changes the color of the h3 headings to blue */
+        }
+    </style>
+    
+</head>
+<body>
+	
+
+	
+    <!---------Home Section--------------->
+    <section class="home" id="home">
+        <div class="home-text">
+            <div class="slide">
+                <span class="one">Hello</span>
+                <span class="two">I'm</span>
+            </div>
+            <h1 style="font-size: 50px;">Karthikeya Saladi</h1>
+
+            <h3 style="font-size: 35px;">Software Engineer</h3>
+            
+            <div class="button">
+                <a href="https://github.com/karthikeya24" class="btn">Github</a>
+                <a href="https://drive.google.com/uc?export=download&id=1FY4tCmekTqgxrCQaGXFKT7EOy2WorVdf" class="btn" download>Download CV</a>
+
+            </div>
+        </div>
+    </section>
+
+    <!---------about Section --------------->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="about.jpeg" alt="About Image">
+        </div>
+
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Software Engineer</h4>
+            <p>My self  Karthikeya Saladi, I am currently in my final year at GITAM University, where I am majoring in Computer Science and Engineering. 
+                My academic interests focus on web development and Java development, and I have been able to create several high-performance websites. 
+                In addition, I have strong skills in SQL, in addition to experience gained through internships in both Web Development and Java Development. 
+                I love new things and am always looking for opportunities to expand my skills.</p>
+                
+        </div>
+    </section>  
+
+
+       <!-----------Portfolio Section--------------->
+       <section class="portfolio" id="portfolio">
+        <div class="main-text">
+            <h2>Projects</h2>
+        </div>
+        <div class="portfolio-content">
+            <div class="project">
+                <h3>Taxi Fare Prediction Using Machine Learning</h3>
+                <p><strong>Technologies:</strong> Python, Machine Learning, Flask, Neural Networks</p>
+                <p>Completed an independent machine learning project on taxi fare prediction, evaluating six algorithms including Neural Networks. Implemented models in a Flask web app and developed a tool for early detection of fare discrepancies.</p>
+            </div>
+
+            <div class="project">
+                <h3>BookLyst - Buy/Sell your books with ease</h3>
+                <p><strong>Technologies:</strong> HTML, CSS, JavaScript, PHP, SQL</p>
+                <p>Developed BookLyst, a platform for buying and selling books with ease. Utilized HTML, CSS, JavaScript, PHP, and SQL to create a seamless user experience and efficient database management.</p>
+            </div>
+
+            <div class="project">
+                <h3>BirthCertify - Birth Certificate Portal</h3>
+                <p><strong>Technologies:</strong> HTML, CSS, JavaScript, PHP, SQL</p>
+                <p>Developed BirthCertify, a robust birth certificate portal using HTML, CSS, JavaScript, PHP, and SQL. Designed and implemented a user-friendly interface for seamless navigation and data entry. Integrated backend functionality with PHP for secure data handling and SQL for efficient database management.</p>
+            </div>
+
+            <div class="project">
+                <h3>FixMyRide - Maintenance, Repairs at our center or your location</h3>
+                <p><strong>Technologies:</strong> HTML, CSS, JavaScript, PHP, SQL</p>
+                <p>Developed FixMyRide, a platform for scheduling vehicle maintenance and repairs at our center or your location. Utilized HTML, CSS, JavaScript, PHP, and SQL to create a user-friendly interface and efficient backend system.</p>
+            </div>
+
+            <div class="project">
+                <h3>Snakes Game</h3>
+                <p><strong>Technologies:</strong> Python, HTML, CSS, JavaScript</p>
+                <p>Developed a classic Snake game to enhance programming and game development skills using Python, HTML, and JavaScript. The project features smooth controls, responsive design, and a simple yet effective user interface, utilizing Pygame for prototyping and HTML5 Canvas for web-based deployment.</p>
+            </div>
+
+            <div class="project">
+                <h3>Happy Appointment - HealthCare Booking Platform</h3>
+                <p><strong>Technologies:</strong> MySQL</p>
+                <p>Developed Happy Appointment, a healthcare booking platform using MySQL for efficient data management. Designed and implemented features for scheduling appointments, managing patient information, and integrating with healthcare providers. Ensured secure and reliable database operations to enhance user experience.</p>
+            </div>
+        </div>
+    </section>
+        
+</body>
+
+</html>
+
+
+<!-----------Experience Section--------------->
+<section class="portfolio" id="portfolio">
+    <div class="main-text">
+        <h2><span>Experience</span></h2>
+    </div>
+    <div class="portfolio-content">
+        <div class="experience">
+            <h3>Millennium Software Solutions Pvt Ltd</h3>
+            <p><strong>05/24 - Present</strong></p>
+            <p><strong>Role:</strong> Java Full Stack Developer Intern</p>
+            <p>As a Java Full Stack Developer at Millennium Software Solutions Pvt Ltd, I am responsible for developing, testing, and deploying both front-end and back-end components of web applications. This role requires proficiency in Java and related technologies to deliver efficient, scalable, and maintainable software solutions.</p>
+        </div>
+        <div class="experience">
+            <h3>Octanet Pvt Ltd</h3>
+            <p><strong>02/24 - 03/24</strong></p>
+            <p><strong>Role:</strong> Java Developer Intern</p>
+            <p>Enhanced Java proficiency by creating a console-based ATM interface with secure user authentication. Implemented features like transaction history, withdrawal, deposit, transfer, and exit options to simulate real-world ATM functionalities.</p>
+        </div>
+        <div class="experience">
+            <h3>YHills Edutech</h3>
+            <p><strong>08/23 - 12/23</strong></p>
+            <p><strong>Role:</strong> Web Developer Intern</p>
+            <p>Refined web development skills by creating a robust user registration and login system using PHP and XAMPP. Implemented secure authentication with PHP sessions for user access. Developed and integrated the entire project independently.</p>
+        </div>
+        <div class="experience">
+            <h3>Machine Learning Engineer Intern</h3>
+            <p>Gained practical Machine Learning experience during my internship by developing a taxi fare prediction model. Built both front-end and back-end using Flask for an intuitive interface and MongoDB for efficient data storage. Ensured accuracy and reliability of fare predictions.</p>
+        </div>
+    </div>
+</section>
+
+		
+
+
+    </div>
+</section>
+
+
+<!------------------Contact section------------>
+<section class="contact" id="contact">
+	<div class="contact-text">
+		<h2>Contact <span>Me!</span></h2>
+		<p>I'm a Software Engineer- pursing my <span>UG</span> In GITAM</p>
+		<div class="list">
+			<li>+91 9347373512</li>
+			<li>saladikarthikeya2004@gmail.com</li>
+		</div>
+
+		
+	</div>
+
+</section>
+
+<!---------End Section---------->
+<section class="end">
+	<div class="last-text">
+		<p>By Karthikeya Saladi</p>
+	</div>
+	<div class="top">
+		<a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+	</div>
+</section>
+</body>
+</html> 
